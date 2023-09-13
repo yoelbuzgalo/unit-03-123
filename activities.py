@@ -8,12 +8,18 @@ def cubed(x):
     value = math.pow(x, 3)
     return value
 
+def even_or_odd(n):
+    if(n%2 == 0):
+        return "even"
+    return "false"
+
 def main():
     x = int(input("Enter a number: "))
     square = squared(x)
     cube = cubed(x)
     print(x, "^2 =", square)
     print(x, "^3 =", cube)
+    print(even_or_odd(2))
 
 main()
 
