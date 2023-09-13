@@ -30,3 +30,19 @@ d ^ f: False
 d ^ e: True
 not d and f: False
 '''
+
+'''
+Answers for Activity: 3.4:
+a == b: False
+a != b: True
+a == (b-5): True
+c == d: False
+a == c: False
+a < b:  True
+a <= b: True
+a > 5: False
+a >= 5: True
+c > d: False
+c <= d: True
+b < c: TypeError
+'''
