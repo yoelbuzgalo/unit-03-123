@@ -1,9 +1,11 @@
+import math
+
 def squared(x):
-    value = x*x
+    value = math.pow(x, 2)
     return value
 
 def cubed(x):
-    value = x**3
+    value = math.pow(x, 3)
     return value
 
 def main():
