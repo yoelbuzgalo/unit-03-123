@@ -16,3 +16,17 @@ def main():
     print(x, "^3 =", cube)
 
 main()
+
+'''
+Answers for Activity 3.3:
+not d: False
+not e: True
+d or e: True
+d or f: True
+e or g: False
+d and e: False
+d and f: True
+d ^ f: False
+d ^ e: True
+not d and f: False
+'''
