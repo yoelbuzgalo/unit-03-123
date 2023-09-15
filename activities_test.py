@@ -1,4 +1,5 @@
 import activities
+import random
 
 def test_squared_8():
     # setup
@@ -46,6 +47,7 @@ def test_odd_25():
 
 def test_coin_toss_heads():
     # setup
+    random.seed(1)
     expected = "heads"
 
     # invoke
