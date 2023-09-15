@@ -110,3 +110,13 @@ a_func(a)
 
 syntax error, identation error
 '''
+
+'''
+Activity 3.18 answers:
+1. TypeError, unexpected type of string when int or float is expected for arithmetic operation
+2. AttributeError, range is not an attribute of random
+3. ValueError, cant convert "cat" to int
+4. AttributeError, mispelled "pi" and "pie" for math.pi
+5. TypeError, cant do math operation with string
+6. Potential ValueError(s) and ZeroDivideError
+'''
