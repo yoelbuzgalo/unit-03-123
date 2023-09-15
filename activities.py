@@ -1,6 +1,14 @@
 import math
 import random
 
+PI = 3.14159
+
+def circumference(radius):
+    return 2 * radius * PI
+
+def area(radius):
+    return (radius**2) * PI
+
 def squared(x):
     value = math.pow(x, 2)
     return value
@@ -33,10 +41,12 @@ def main():
     # print(coin_toss())
     # print(coin_toss())
     # print(coin_toss())
-    random.seed(100)
-    print(random.randrange(1,100))
-    print(random.randint(1, 100))
-    print(random.random())
+    # random.seed(100)
+    # print(random.randrange(1,100))
+    # print(random.randint(1, 100))
+    # print(random.random())
+    print(circumference(10))
+    print(area(10))
 
 if __name__ == "__main__":
     main()
