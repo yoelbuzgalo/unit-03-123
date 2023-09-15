@@ -21,7 +21,8 @@ def main():
     print(x, "^3 =", cube)
     print(even_or_odd(2))
 
-main()
+if __name__ == "__main__":
+    main()
 
 '''
 Answers for Activity 3.3:
