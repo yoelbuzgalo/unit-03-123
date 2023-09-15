@@ -79,3 +79,34 @@ Activity 3.16 Answers:
 3. Only the PyTest I found a bit confusing because when I first ran it without specifying the file, it tells me all kinds of 'fails' when it actually just ran different files for tests and not the one I wanted.
 4. So far most of the errors I get are typically easy to fix, like the SyntaxError or TypeError where I just go back and fix. I did not have anything major error yet.
 '''
+
+
+'''
+z = z+5 
+name error, z is not defined before its used
+
+def print_x()
+print(x)
+will be an indentation error
+
+print("My name is" name)
+will be a syntax error, expected comma
+
+    x = 7
+y = x+2
+print(x*y)
+identation error
+
+def my_func(x):
+    x = x+5
+my_fnuc(6)
+error, undefined function for my_fnuc (typo)
+
+def a_func(a)
+    x = int(a)
+        print(x*x)
+
+a_func(a)
+
+syntax error, identation error
+'''
