@@ -43,3 +43,13 @@ def test_odd_25():
 
     # analyze
     assert result == expected
+
+def test_coin_toss_heads():
+    # setup
+    expected = "heads"
+
+    # invoke
+    result = activities.coin_toss()
+
+    # analyze
+    assert result == expected
