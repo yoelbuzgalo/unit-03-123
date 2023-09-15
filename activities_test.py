@@ -55,3 +55,14 @@ def test_coin_toss_heads():
 
     # analyze
     assert result == expected
+
+def test_coin_toss_tails():
+    # setup
+    random.seed(5)
+    expected = "tails"
+
+    # invoke
+    result = activities.coin_toss()
+
+    # analyze
+    assert result == expected
