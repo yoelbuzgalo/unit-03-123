@@ -24,7 +24,7 @@ def get_base(side, height):
     """
     c_squared = math.pow(side, 2)
     b_squared = math.pow(height, 2)
-    return math.sqrt(c_squared - b_squared) * 2
+    return math.sqrt(abs(c_squared - b_squared)) * 2
 
 def main():
     """
@@ -34,7 +34,7 @@ def main():
     natural_log(E)
     natural_log(2)
     natural_log(1)
-    natural_log(0)
+    # natural_log(0)
 
     # test the isosceles base function
     height = float(input("Enter the height: "))
