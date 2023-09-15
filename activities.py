@@ -70,3 +70,12 @@ c > d: False
 c <= d: True
 b < c: TypeError
 '''
+
+
+'''
+Activity 3.16 Answers:
+1. The most common errors I get is "SyntaxError" which is pretty obvious by its name, it specifies what it expects and what is missing (for example missing closing paranthesis)
+2. Yes, I usually just look at what line and the expected statement and add in the code itself.
+3. Only the PyTest I found a bit confusing because when I first ran it without specifying the file, it tells me all kinds of 'fails' when it actually just ran different files for tests and not the one I wanted.
+4. So far most of the errors I get are typically easy to fix, like the SyntaxError or TypeError where I just go back and fix. I did not have anything major error yet.
+'''
