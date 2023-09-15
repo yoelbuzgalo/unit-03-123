@@ -10,7 +10,7 @@ def point_string(x, y):
     """
     Returns the specified point as a string in the format "(x, y)"
     """
-    p_string = "(" + str(x) + ", " + y + ")"
+    p_string = "(" + str(x) + ", " + str(y) + ")"
     return p_string
 
 def euclidean_distance(x1, y1, x2, y2):
@@ -19,7 +19,7 @@ def euclidean_distance(x1, y1, x2, y2):
     """
     delta_x = x2 - x1
     delta_y = y2 - y1
-    return math.square_root(delta_x ** 2 + delta_y ** 2)
+    return math.sqrt(delta_x ** 2 + delta_y ** 2)
 
 def main():
     """
