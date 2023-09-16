@@ -23,9 +23,10 @@ def trunk(num):
     return math.trunc(num) # Calls trunc function from math library and returns the result
 
 def main():
-    input_number = int(input("Enter a number: ")) # Prompts the user to enter a number and converts it to an integer
-    print(fact(input_number)) # Calls factorial function and prints out the result
-    print(root(input_number)) # Calls root function and prints out the result
-    print(trunk(input_number)) # Calls trunk function and prints out the result
+    input_number = input("Enter a number: ") # Prompts the user to enter a number
+    print(fact(int(input_number))) # Converts input number to int and calls factorial function and prints out the result
+    print(root(float(input_number))) # Converts input number to float and calls root function and prints out the result
+    print(trunk(float(input_number))) # Calls trunk function and prints out the result
 
-main()
+if __name__ == "__main__":
+    main()
