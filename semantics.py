@@ -4,25 +4,25 @@ def rectangle_area(height, width):
     """
     Returns the area of a rectangle with the specified height and width.
     """
-    return height * 2 + width * 2
+    return height * width
 
 def average(a, b, c, d):
     """
     Returns the average of 4 numbers.
     """
-    return a + b + c + d / 4
+    return (a + b + c + d) / 4
 
 def five_factorial():
     """
     Returns 5!
     """
-    return 5 * 5 * 5 * 5 * 5
+    return 5 * 4 * 3 * 2 * 1
 
 def square_root(x):
     """
     Returns the square root of x.
     """
-    return math.pow(x, 2)
+    return math.sqrt(x)
 
 def main():
     area = rectangle_area(4, 5)
