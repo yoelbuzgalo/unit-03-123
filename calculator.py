@@ -36,3 +36,20 @@ def exponent(x,y):
     '''
     power = math.pow(x, y) # Raises x to the power of y
     return str(x) + "^" + str(y) + " = " + str(power) # Casts x, y and the power variable to a string and returns them
+
+def main():
+    '''
+    The main function of this program, prompts the user to enter two numbers and prints out the results of each function called
+    '''
+    # Prompt user to enter two integer values x and y
+    num_x = int(input("enter x: ")) # Casts the first num input to an integer value
+    num_y = int(input("enter y: ")) # Casts the second num input to an integer value
+
+    print(add(num_x, num_y)) # Calls add function and prints to the output
+    print(subtract(num_x, num_y)) # Calls subtract function and prints to the output
+    print(multiply(num_x, num_y)) # Calls multiply function and prints to the output
+    print(divide(num_x, num_y)) # Calls divide function and prints to the output
+    print(exponent(num_x,num_y)) # Calls exponent function and prints to the output
+
+if __name__ == "__main__":
+    main()
