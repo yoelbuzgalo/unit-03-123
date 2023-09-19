@@ -24,3 +24,15 @@ def test_subtract_20():
 
     # Analyze
     assert result == expected
+
+def test_multiply_27():
+    # Setup
+    x = 3
+    y = 9
+    expected = "3 * 9 = 27"
+
+    # Invoke
+    result = calculator.multiply(x,y)
+
+    # Analyze
+    assert result == expected
