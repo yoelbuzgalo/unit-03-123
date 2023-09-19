@@ -60,3 +60,15 @@ def test_divide_NaN():
 
     # Analyze
     assert result == expected
+
+def test_exponent_1000():
+    # Setup
+    x = 10
+    y = 3
+    expected = "10^3 = 1000.0"
+
+    # Invoke
+    result = calculator.exponent(x, y)
+
+    # Analyze
+    assert result == expected
