@@ -1,6 +1,6 @@
 import calculator
 
-def test_add_4():
+def test_add_12():
     # Setup
     x = 5
     y = 7
@@ -13,7 +13,7 @@ def test_add_4():
     assert result == expected
 
 
-def test_subtract_20():
+def test_subtract_15():
     # Setup
     x = 2
     y = 17
@@ -33,6 +33,30 @@ def test_multiply_27():
 
     # Invoke
     result = calculator.multiply(x,y)
+
+    # Analyze
+    assert result == expected
+
+def test_divide_2():
+    # Setup
+    x = 12
+    y = 6
+    expected = "12 / 6 = 2.0"
+
+    # Invoke
+    result = calculator.divide(x, y)
+
+    # Analyze
+    assert result == expected
+
+def test_divide_NaN():
+    # Setup
+    x = 100
+    y = 0
+    expected = "100 / 0 = NaN"
+
+    # Invoke
+    result = calculator.divide(x, y)
 
     # Analyze
     assert result == expected
